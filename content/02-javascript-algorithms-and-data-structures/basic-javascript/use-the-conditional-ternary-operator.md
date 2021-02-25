@@ -1,6 +1,6 @@
 ---
 id: 587d7b7e367417b2b2512b24
-title: Use the Conditional (Ternary) Operator
+title: Use o Operador Condicional (Ternário)
 challengeType: 1
 forumTopicId: 301181
 dashedName: use-the-conditional-ternary-operator
@@ -8,13 +8,13 @@ dashedName: use-the-conditional-ternary-operator
 
 # --description--
 
-The <dfn>conditional operator</dfn>, also called the <dfn>ternary operator</dfn>, can be used as a one line if-else expression.
+O <dfn>operador condicional</dfn>, também chamado de <dfn>operador ternário</dfn>, pode ser usado como uma expressão if-else de uma linha.
 
-The syntax is:
+A sintaxe é:
 
 `condition ? expression-if-true : expression-if-false;`
 
-The following function uses an if-else statement to check a condition:
+A função a seguir usa uma instrução if-else para verificar uma condição:
 
 ```js
 function findGreater(a, b) {
@@ -27,7 +27,7 @@ function findGreater(a, b) {
 }
 ```
 
-This can be re-written using the `conditional operator`:
+Isso pode ser reescrito usando o `operador condicional`:
 
 ```js
 function findGreater(a, b) {
@@ -37,29 +37,29 @@ function findGreater(a, b) {
 
 # --instructions--
 
-Use the `conditional operator` in the `checkEqual` function to check if two numbers are equal or not. The function should return either "Equal" or "Not Equal".
+Use o `operador condicional` na função `checkEqual` para verificar se dois números são iguais ou não. A função deve retornar "Equal" ou "Not Equal".
 
 # --hints--
 
-`checkEqual` should use the `conditional operator`
+`checkEqual` deve usar o `operador condicional`
 
 ```js
 assert(/.+?\s*?\?\s*?.+?\s*?:\s*?.+?/.test(code));
 ```
 
-`checkEqual(1, 2)` should return "Not Equal"
+`checkEqual(1, 2)` deve retornar "Not Equal"
 
 ```js
 assert(checkEqual(1, 2) === 'Not Equal');
 ```
 
-`checkEqual(1, 1)` should return "Equal"
+`checkEqual(1, 1)` deve retornar "Equal"
 
 ```js
 assert(checkEqual(1, 1) === 'Equal');
 ```
 
-`checkEqual(1, -1)` should return "Not Equal"
+`checkEqual(1, -1)` deve retornar "Not Equal"
 
 ```js
 assert(checkEqual(1, -1) === 'Not Equal');
